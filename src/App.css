@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  margin: 0 auto;
+  height: 100%;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav span {
+  padding-left: 0.5rem;
+}
+
+main {
+  height: 100%;
+  padding: 1rem;
+}
+
+#sort-col-container {
+  height: 50%;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1px;
+  background-color: black;
+}
+
+.sort-col {
+  align-self: end;
+  background-color: white;
+}
